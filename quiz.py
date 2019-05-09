@@ -1,26 +1,29 @@
-def list(numbers):
-	b = []
-	for x in numbers:
-		print(x%3)
+def list(b):
+	s = [x%3 for x in b]
+
+	return s
+
  
 
 
 
 
 def sorted(a,b,c):
-	a = []
-	b = []
-	c = []
+	
 	d = a + b + c
 	d.sort()
 	return d
 
 
-def divisible_by_three(n):
-	numbers = (1,n+1)
-	for a in numbers:
-		if a/3 == 0:
-			return numbers
+
+
+def divisible(n):
+	y = []
+	for x in range(1,n+1):
+		if x%3==0:
+			y.append(x)
+	return y		
+
 
 def flatten(x):
 	flat = []
@@ -34,18 +37,18 @@ def	smallest(b):
     list = []
     min(list)	
 
-def letters():
- y = []
- y.remove([0],[2],[3],[5],[7])
- return x
+def letters(x):
+	b = set(x)
+
+	return b
+
 
 def squares(n):
     a = dict()
     for x in range(149,159):
-        if x**2==0:
-            a[x] = x**2
-       
+        a[x] = x**2
     return a  
+
 
 def students(age,name):
    student1={'age': 19, 'name':'Eunice'}
