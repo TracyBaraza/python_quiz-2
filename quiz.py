@@ -57,11 +57,29 @@ def students(age,name):
    student4={'age': 22, 'name': 'Asha'}
 		      
 
- students=[student1,student2,student3,student4,student5,]
- for student in students:
- 	            age=(student[2019-["age"]]
-			    messege="Hello {}, you were born in {}".format(student['name'],student['balance']) 
-				     print(messege)
+   students=[student1,student2,student3,student4,student5,]
+   for student in students:
+   	 age=(student[2019-["age"]])
+   	 messege=("Hello {}, you were born in {}".format(student['name'],student['age']))
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
 
 
 		                     
