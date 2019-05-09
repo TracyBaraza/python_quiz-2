@@ -45,7 +45,25 @@ def squares(n):
         if x**2==0:
             a[x] = x**2
        
-    return a                   
+    return a  
+
+ def  students(age,name):
+ student1={‘age’: 19, 'name':‘Eunice’}
+		      
+ student2={‘age’: 21, 'name': 'Agnes'}
+		      
+ student3={‘age’: 18, 'name': 'Teresa'}
+		      
+ student4={age: 22, 'name': 'Asha'}
+		      
+
+ students=[student1,student2,student3,student4,student5,]
+ for student in students:
+			    messege=("Hello {} your current balance is {}".format(student['name'],student['balance'])
+				     print(messege)
+
+
+		                     
 
 
 		
