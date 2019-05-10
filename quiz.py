@@ -34,8 +34,8 @@ def flatten(x):
 
 
 def	smallest(b):
-    list = []
-    min(list)	
+   c = min(b)
+   return c	
 
 def letters(x):
 	b = set(x)
@@ -50,7 +50,7 @@ def squares(n):
     return a  
 
 
-def students(age,name):
+def students():
    student1={'age': 19, 'name':'Eunice'}
 		      
    student2={'age': 21, 'name': "Agnes"}
@@ -60,10 +60,11 @@ def students(age,name):
    student4={'age': 22, 'name': 'Asha'}
 		      
 
-   students=[student1,student2,student3,student4,student5,]
+   students=[student1,student2,student3,student4]
    for student in students:
-   	 age=(student[2019-["age"]])
+   	 age=(2019-student["age"])
    	 messege=("Hello {}, you were born in {}".format(student['name'],student['age']))
+   	 print(messege)
 
 
 
